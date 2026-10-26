@@ -1,5 +1,5 @@
 # foldable-devices-research
-## TO BE UPDATED AS I GO !!!
+## Currently updating !
 
 # Foldable Device App Reliability & RotDroid Testing Framework
 
