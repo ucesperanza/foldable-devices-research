@@ -32,9 +32,10 @@ foldable-rotdroid-testing/
 ├── .gitignore                     # Prevents large binary files (*.apk) from cluttering Git history
 ├── LICENSE                        # Open-source project license
 └── README.md                      # Main repository landing page & executive summary
+```
+
 
 | Path / File | Description |
-| :--- | :--- |
 | **[`docs/app-inventory.md`](docs/app-inventory.md)** | Full app catalog listing package names, entry activities, and test statuses across all filtered datasets (`filtered_apks.csv` – `filtered_apks_4.csv` & `300APPSTESTING`). |
 | **[`docs/setup-guide.md`](docs/setup-guide.md)** | Step-by-step user guide for installing APKs via ADB, configuring physical testbed devices, and maintaining environment consistency. |
 | **[`docs/rotdroid-integration.md`](docs/rotdroid-integration.md)** | Replication documentation referencing the **RotDroid** source code, **RotBench** dataset, and **RotVL** models. |
