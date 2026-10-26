@@ -1,5 +1,5 @@
 # foldable-devices-research
-UPDATED AS I GO
+## TO BE UPDATED AS I GO
 
 # Foldable Device App Reliability & RotDroid Testing Framework
 
@@ -11,7 +11,7 @@ Our work integrates extensive empirical data collected across **300+ commercial 
 ---
 
 ## 📂 Core Components & Repository Map
-
+```text
 foldable-rotdroid-testing/
 │
 ├── .github/
@@ -30,7 +30,7 @@ foldable-rotdroid-testing/
 │   └── email-status.md            # Communications log, stakeholder reports & Nov 2 milestone
 │
 ├── .gitignore                     # Prevents large binary files (*.apk) from cluttering Git history
-├── LICENSE                        # Open-source license (e.g., MIT)
+├── LICENSE                        # Open-source project license
 └── README.md                      # Main repository landing page & executive summary
 
 | Path / File | Description |
