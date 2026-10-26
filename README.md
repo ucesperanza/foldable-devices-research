@@ -10,7 +10,9 @@ Our work integrates extensive empirical data collected across **300+ commercial 
 
 ---
 
-## 📂 Core Components & Repository Map
+## Plain Text Directory Structure
+Below is the complete architectural layout of this repository:
+
 ```text
 foldable-rotdroid-testing/
 │
@@ -19,15 +21,15 @@ foldable-rotdroid-testing/
 │       └── main.yml               # Automated CI/CD workflow configuration
 │
 ├── apks/
-│   └── README.md                  # Detailed guide on downloading APK batches via Releases
+│   └── README.md                  # RotDroid & testbed APK download guide via Releases
 │
 ├── docs/
 │   ├── app-inventory.md           # Comprehensive catalog of all tested apps, packages & batches
 │   ├── setup-guide.md             # Android usage, ADB deployment & environment setup
 │   └── rotdroid-integration.md    # ISSRE 2026 RotDroid, RotBench, & RotVL specifications
 │
-├── status/
-│   └── email-status.md            # Communications log, stakeholder reports & Nov 2 milestone
+├── research-archives/
+│   └── README.md                  # Historical datasets, previous CSVs, and past research artifacts
 │
 ├── .gitignore                     # Prevents large binary files (*.apk) from cluttering Git history
 ├── LICENSE                        # Open-source project license
@@ -38,8 +40,8 @@ foldable-rotdroid-testing/
 | [`docs/app-inventory.md`](docs/app-inventory.md) | Full app catalog listing package names, entry activities, and test statuses across all filtered datasets (`filtered_apks.csv` – `filtered_apks_4.csv` & `300APPSTESTING`). |
 | [`docs/setup-guide.md`](docs/setup-guide.md) | Step-by-step user guide for installing APKs via ADB, configuring physical testbed devices, and maintaining environment consistency. |
 | [`docs/rotdroid-integration.md`](docs/rotdroid-integration.md) | Replication documentation referencing the **RotDroid** source code, **RotBench** dataset, and **RotVL** models. |
-| [`status/email-status.md`](status/email-status.md) | Log of email status reports, stakeholder communications, and our **November 2** progress summary. |
-| [`apks/README.md`](apks/README.md) | Download guide for retrieving compiled `.apk` binary batches securely via GitHub Releases. |
+| [`research-archives/README.md`](research-archives/README.md) | Our previous research testing and old testing. |
+| [`apks/README.md`](apks/README.md) | Direct download guide and resource link for retrieving RotDroid and testbed `.apk` binary batches securely via GitHub Releases. |
 
 ---
 
