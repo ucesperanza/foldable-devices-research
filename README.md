@@ -1,5 +1,5 @@
 # foldable-devices-research
-## TO BE UPDATED AS I GO
+## TO BE UPDATED AS I GO !!!
 
 # Foldable Device App Reliability & RotDroid Testing Framework
 
@@ -33,18 +33,17 @@ foldable-rotdroid-testing/
 ├── LICENSE                        # Open-source project license
 └── README.md                      # Main repository landing page & executive summary
 ```
-
-
 | Path / File | Description |
-| **[`docs/app-inventory.md`](docs/app-inventory.md)** | Full app catalog listing package names, entry activities, and test statuses across all filtered datasets (`filtered_apks.csv` – `filtered_apks_4.csv` & `300APPSTESTING`). |
-| **[`docs/setup-guide.md`](docs/setup-guide.md)** | Step-by-step user guide for installing APKs via ADB, configuring physical testbed devices, and maintaining environment consistency. |
-| **[`docs/rotdroid-integration.md`](docs/rotdroid-integration.md)** | Replication documentation referencing the **RotDroid** source code, **RotBench** dataset, and **RotVL** models. |
-| **[`status/email-status.md`](status/email-status.md)** | Log of email status reports, stakeholder communications, and our **November 2** progress summary. |
-| **[`apks/README.md`](apks/README.md)** | Download guide for retrieving compiled `.apk` binary batches securely via GitHub Releases. |
+| :--- | :--- |
+| [`docs/app-inventory.md`](docs/app-inventory.md) | Full app catalog listing package names, entry activities, and test statuses across all filtered datasets (`filtered_apks.csv` – `filtered_apks_4.csv` & `300APPSTESTING`). |
+| [`docs/setup-guide.md`](docs/setup-guide.md) | Step-by-step user guide for installing APKs via ADB, configuring physical testbed devices, and maintaining environment consistency. |
+| [`docs/rotdroid-integration.md`](docs/rotdroid-integration.md) | Replication documentation referencing the **RotDroid** source code, **RotBench** dataset, and **RotVL** models. |
+| [`status/email-status.md`](status/email-status.md) | Log of email status reports, stakeholder communications, and our **November 2** progress summary. |
+| [`apks/README.md`](apks/README.md) | Download guide for retrieving compiled `.apk` binary batches securely via GitHub Releases. |
 
 ---
 
-## 📱 Evaluated Datasets & Categories
+##  Evaluated Datasets & Categories
 Our benchmark encompasses diverse application domains evaluated across both **book-style** (e.g., Samsung Galaxy Z Fold 4, Google Pixel Fold) and **flip-style** (e.g., Samsung Galaxy Z Flip 6, Motorola RAZR 2023) hardware matrix form factors:
 
 * **Navigation & Travel:** `net.osmand.plus`, `app.organicmaps`, `mobi.maptrek`
@@ -55,14 +54,14 @@ Our benchmark encompasses diverse application domains evaluated across both **bo
 
 ---
 
-## 🔗 Key External References
+## RotDroids SOURCES
 * **RotDroid Source Code:** [GitHub Repository (ImDiM/RotDroid)](https://github.com/ImDiM/RotDroid)
 * **RotVL Vision Models:** [Hugging Face Models (ImDim/RotVL)](https://huggingface.co/ImDim/RotVL)
 * **RotBench Dataset:** [Hugging Face Dataset (ImDim/RotBench)](https://huggingface.co/datasets/ImDim/RotBench)
 
 ---
 
-## 📦 Binary APK Distribution
+## Binary APK Distribution
 To avoid repository bloat and comply with Git storage best practices, raw application packages (`.apk`) are hosted under the **[Releases](../../releases)** tab.
 
 1. Navigate to **Releases** on the right sidebar.
